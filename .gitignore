@@ -1,0 +1,39 @@
+# --- Virtual Environment ---
+# Never commit the virtual environment folder
+venv/
+ragas_venv/
+# --- Python Cache ---
+# Standard Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- OS-specific Files ---
+# For macOS users
+.DS_Store
+
+# --- Local Database & Journals ---
+# The main database file and its temporary journal file
+knowledge_base.db
+knowledge_base.db-journal
+
+# --- Generated Index Files ---
+# FAISS index and its ID map should be generated, not stored
+faiss_index.idx
+id_map.json
+
+# --- Evaluation Output ---
+# These CSV files are results, not source code
+evaluation_results.csv
+detailed_evaluation_results.csv
+
+# --- Downloaded Dependencies & Models ---
+# The Piper TTS engine and its voice models should be downloaded by users
+piper/
+piper_voices/
+
+# --- Large Data & Generated Files ---
+# Ignore large data files like PDFs and any generated audio
+*.pdf
+*.wav

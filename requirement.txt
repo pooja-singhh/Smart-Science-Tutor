@@ -1,0 +1,16 @@
+numpy
+faiss-cpu
+pillow
+pytesseract
+opencv-python
+nltk
+sentence-transformers
+torch
+transformers
+gradio
+pymupdf
+gpt4all
+soundfile
+networkx
+librosa
+clip
